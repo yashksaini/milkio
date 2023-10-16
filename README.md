@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Milkio Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Introduction](#introduction)
+- [Demo](#demo)
+- [About the Project](#about-the-project)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Used For](#used-for)
+- [Improvements](#improvements)
+- [Problems Faced](#problems-faced)
+- [Links](#links)
+- [Getting Started](#getting-started)
 
-## Available Scripts
+## Introduction
+Milkio is a milk management application that allows users to track their daily consumption. Users can record the amount of milk taken in the morning and evening for each day, view monthly summaries, set prices, and manage their monthly expenses for milk.
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://github.com/yashksaini/milkio/assets/101442489/45b20dca-88cb-4f8f-81f4-e6d25e4569cf
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About the Project
+- Milkio is a comprehensive milk management application designed to simplify and streamline the tracking of daily milk consumption and managing associated expenses.
+- Leveraging modern web technologies such as React, CSS, Redux, and IndexedDB for local storage, Milkio offers a seamless user experience and empowers users to manage their milk consumption records efficiently.
+- The application allows users to record their milk consumption twice a day - in the morning and evening, providing an accurate account of daily milk intake.
+- Users can view a summarized report of their milk consumption for a selected month, providing insights into their overall usage and helping in budgeting.
+- Milkio enables users to set the price of milk for the entire month, ensuring accurate expense calculations and providing a clear overview of the financial aspect of their milk consumption.
+- The application automatically calculates and displays the total amount spent on milk based on recorded entries and the set prices, allowing users to stay informed about their milk-related expenses.
+- Milkio employs an intuitive calendar interface that facilitates easy navigation and data entry, enhancing user experience.
+- Users can select a specific month and year to view historical milk consumption data for that period, aiding in analyzing consumption patterns and making informed decisions.
+- Milkio allows users to add personalized captions or notes for each month, enhancing their ability to recall specific details or events related to their milk consumption during that period.
+- The application ensures that data is stored reliably using IndexedDB, providing offline functionality and ensuring that users' records are consistently available, even without an internet connection.
+- Milkio is designed with a focus on user experience, featuring an intuitive one-page application that is easy to navigate and use. The interface is clean, organized, and user-friendly.
+- The application prominently displays the total expenses for milk consumption at the top, providing users with a quick reference point for their total spending on milk.
+- Milkio caters to individuals who receive milk from a milkman and need to keep track of their consumption. With its user-centric design and robust features, Milkio simplifies the milk management process and serves as an invaluable tool for those seeking a hassle-free approach to monitoring their milk intake and expenses.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+- React
+- CSS
+- Redux
+- IndexedDB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
+- Record morning and evening milk consumption daily.
+- View monthly milk consumption summaries.
+- Set prices for milk for the entire month.
+- Track total expenses for milk consumption.
+- Add captions for each month.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Used For
+- Tracking daily milk consumption
+- Managing monthly milk expenses
 
-### `npm run eject`
+## Improvements
+- Enhanced UI/UX
+- Integration with payment gateways for easy transactions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Problems Faced
+- **Handling and syncing data with IndexedDB**
+  - Implemented efficient data synchronization algorithms to ensure data consistency and reliability.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Links
+- [Live App](https://milkio.netlify.app/)
+- [GitHub Repository](https://github.com/yashksaini/milkio)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
+To clone and run this project locally, follow these steps:
+1. Clone the repository: `git clone https://github.com/yashksaini/milkio.gitt`
+2. Navigate to the project directory: `cd boot-bazaar`
+3. Install dependencies: `npm install`
+4. Run the application: `npm start`
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
